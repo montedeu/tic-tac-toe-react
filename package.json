@@ -1,12 +1,12 @@
 {
-  "homepage": "https://montedeu.github.io/tic-tac-toe-react/",
+  "homepage": "https://montedeu.github.io/tic-tac-toe-react",
   "name": "tic-tac-toe-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d built",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
